@@ -6,7 +6,7 @@
       "api_version": "1.0.0",
       "available_api_versions": [
         {
-          "url": "https://www.optimade.org/providers/optimade/v1/",
+          "url": "https://optimade-index.openmaterialsdb.se/v1/",
           "version": "1.0.0"
         }
       ],

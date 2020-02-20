@@ -1,164 +1,21 @@
 {
   "data": [
     {
-      "type": "provider",
-      "id": "aiida",
+      "type": "parent",
       "attributes": {
-        "name": "AiiDA",
-        "description": "AiiDA: Automated Interactive Infrastructure and Database for Computational Science",
-        "base_url": null,
-        "homepage": "http://www.aiida.net"
-      }
-    },
-    {
-      "type": "provider",
-      "id": "aflow",
-      "attributes": {
-        "name": "aflow.org",
-        "description": "",
-        "base_url": null,
-        "homepage": null
-      }
-    },
-    {
-      "type": "provider",
-      "id": "cam",
-      "attributes": {
-        "name": "Cambridge databases",
-        "description": "",
-        "base_url": null,
-        "homepage": null
-      }
-    },
-    {
-      "type": "provider",
-      "id": "cod",
-      "attributes": {
-        "name": "Crystallography Open Database",
-        "description": "Open-access collection of crystal structures of organic, inorganic, metal-organics compounds and minerals, excluding biopolymers",
-        "base_url": "https://www.crystallography.net/cod/optimade",
-        "homepage": "https://www.crystallography.net/cod"
-      }
-    },
-    {
-      "type": "provider",
-      "id": "exmpl",
-      "attributes": {
-        "name": "Example provider",
-        "description": "Provider used for examples, not to be assigned to a real database",
-        "base_url": "https://example.com/optimade",
-        "homepage": "https://example.com"
-      }
-    },
-    {
-      "type": "provider",
-      "id": "httk",
-      "attributes": {
-        "name": "The High-Throughput Toolkit",
-        "description": "Prefix for implementation-specific identifiers used in the httk implementation at http://httk.org/",
-        "base_url": null,
-        "homepage": null
-      }
-    },
-    {
-      "type": "provider",
-      "id": "mcloud",
-      "attributes": {
-        "name": "Materials Cloud",
-        "description": "Materials Cloud: A platform for Open Science built for seamless sharing of resources in computational materials science",
-        "base_url": "https://www.materialscloud.org/optimade",
-        "homepage": "https://www.materialscloud.org"
-      }
-    },
-    {
-      "type": "provider",
-      "id": "mp",
-      "attributes": {
-        "name": "materialsproject.org",
-        "description": "",
-        "base_url": null,
-        "homepage": null
-      }
-    },
-    {
-      "type": "provider",
-      "id": "mpds",
-      "attributes": {
-        "name": "materials platform for data science",
-        "description": "",
-        "base_url": null,
-        "homepage": null
-      }
-    },
-    {
-      "type": "provider",
-      "id": "nmd",
-      "attributes": {
-        "name": "nomad laboratory",
-        "description": "",
-        "base_url": null,
-        "homepage": null
-      }
-    },
-    {
-      "type": "provider",
-      "id": "odbx",
-      "attributes": {
-        "name": "open database of xtals",
-        "description": "",
-        "base_url": "http://odbx.science/optimade",
-        "homepage": "http://odbx.science"
-      }
-    },
-    {
-      "type": "provider",
-      "id": "omdb",
-      "attributes": {
-        "name": "open materials database",
-        "description": "",
-        "base_url": null,
-        "homepage": null
-      }
-    },
-    {
-      "type": "provider",
-      "id": "optimade",
-      "attributes": {
-        "name": "OPTiMaDe implementations and libraries",
-        "description": "Prefix for implementation-specific identifiers used in API implementations and libraries provided at https://github.com/Materials-Consortia",
-        "base_url": null,
+        "name": "OPTiMaDe providers list",
+        "base_url": "https://providers.optimade.org",
         "homepage": "https://www.optimade.org"
       }
     },
     {
-      "type": "provider",
-      "id": "oqmd",
+      "type": "child",
       "attributes": {
-        "name": "open quantum materials database",
-        "description": "",
+        "name": "Open Materials Database",
+        "description": "The Open Materials Database",
         "base_url": null,
-        "homepage": null
+        "homepage": "http://openmaterialsdb.se"
       }
     },
-    {
-      "type": "provider",
-      "id": "pcod",
-      "attributes": {
-        "name": "Predicted Crystallography Open Database",
-        "description": "",
-        "base_url": null,
-        "homepage": null
-      }
-    },
-    {
-      "type": "provider",
-      "id": "tcod",
-      "attributes": {
-        "name": "Theoretical Crystallography Open Database",
-        "description": "Open-access collection of theoretically calculated or refined crystal structures of organic, inorganic, metal-organic compounds and minerals, excluding biopolymers",
-        "base_url": "https://www.crystallography.net/tcod/optimade",
-        "homepage": "https://www.crystallography.net/tcod"
-      }
-    }
   ]
 }
