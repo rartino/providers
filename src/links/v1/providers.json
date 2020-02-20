@@ -2,20 +2,23 @@
   "data": [
     {
       "type": "parent",
+      "id": "optimade_index",	
       "attributes": {
-        "name": "OPTiMaDe providers list",
+        "name": "OPTiMaDe providers",
+	"description": "OPTiMaDe index meta-database of known providers",
         "base_url": "https://providers.optimade.org",
         "homepage": "https://www.optimade.org"
       }
     },
     {
       "type": "child",
+      "id": "omdb_main",
       "attributes": {
         "name": "Open Materials Database",
         "description": "The Open Materials Database",
-        "base_url": null,
-        "homepage": "http://openmaterialsdb.se"
+        "base_url": "https://optimade.openmaterialsdb.se",
+        "homepage": "https://openmaterialsdb.se"
       }
-    },
+    }
   ]
 }
